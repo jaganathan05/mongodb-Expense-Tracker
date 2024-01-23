@@ -1,0 +1,68 @@
+body {
+    background-image: url(https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; /* Updated background-size for better coverage */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form {
+    border: 2px solid #6200ff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-title {
+    color: #6200ff;
+    font-size: 24px;
+    font-family: serif;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    color: #6200ff;
+    font-size: 16px;
+}
+
+#button:hover {
+    background-color: #043b10;
+    color: yellow;
+}
+
+#button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#login {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #6200ff;
+    margin-top: 20px;
+}
